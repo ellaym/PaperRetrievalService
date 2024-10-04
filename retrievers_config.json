@@ -1,0 +1,5 @@
+{
+  "retrievers": {
+    "arxiv": "libs.PaperRetrievalService.arxiv_retriever.ArxivRetriever"
+  }
+}

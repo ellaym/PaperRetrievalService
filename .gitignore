@@ -1,0 +1,9 @@
+# .gitignore
+venv/
+__pycache__/
+.env
+*.pyc
+.DS_Store
+logs
+downloaded_papers
+*.log

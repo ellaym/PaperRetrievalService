@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  paper_retrieval_service:
+    build: .
+    container_name: paper_retrieval_service
+    ports:
+      - "5502:5502"  # Expose port 5502 of the container to port 5502 of the host
+    volumes:
+      - .:/app  # Mount the current directory to /app in the container for live development
